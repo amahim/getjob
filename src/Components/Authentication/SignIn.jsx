@@ -50,7 +50,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="mx-auto w-4/5 pb-10">
+    <div className="pb-10">
       <div>
         <h1 className="text-center font-bold text-2xl text-primary">
           Login to your account
@@ -108,13 +108,13 @@ const SignIn = () => {
         <div>
           <h1>
             Don't have an account?{" "}
-            <Link to="/register" className="text-blue-600">
+            <Link to="/signup" className="text-blue-600">
               Register
             </Link>
           </h1>
         </div>
         <div className="flex w-full flex-col">
-          <div className="divider">Or</div>
+          <div className="divider divider-primary">Or</div>
         </div>
         <div>
           <button

@@ -39,7 +39,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <div className=" text-3xl font-bold flex items-center">
+          <div className=" text-xl md:text-2xl lg:text-3xl font-bold flex items-center">
             <img src={navIcon} alt="" className="w-10" />
             Get<span className="text-primary">Job</span>
           </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end gap-8">
-          <Link to="/signup" className="text-primary underline">
+          <Link to="/signup" className="text-primary underline hidden md:block">
             Sign Up
           </Link>
           <Link to="/signin" className="btn btn-primary text-white">

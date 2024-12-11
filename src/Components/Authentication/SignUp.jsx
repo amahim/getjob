@@ -55,7 +55,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className=" mx-auto w-4/5 pb-10">
+    <div className=" pb-10">
       <div>
         <h1 className="pb-5 text-center text-primary font-bold text-2xl">
           Register your account
@@ -125,7 +125,7 @@ const SignUp = () => {
         <div>
           <h1>
             Already have an account?{" "}
-            <Link to="/login" className="text-blue-600">
+            <Link to="/signin" className="text-blue-600">
               Login
             </Link>
           </h1>
